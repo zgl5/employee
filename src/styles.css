@@ -1,0 +1,100 @@
+.App {
+    font-family: sans-serif;
+    margin-top: 100px;
+    }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: cornsilk;
+    padding: 15px;
+    font-size: 2em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .nav a {
+    color: rgb(230, 65, 65);
+    text-decoration: none;
+  } 
+   .onclick:hover {
+    font-size: 120%;
+    cursor: pointer;
+    
+  }
+   .rows td {
+    text-align: left;
+    border: 2px solid red;
+    width: 535px;
+    font-size: 15px;
+    
+   }
+  h2{
+    text-align:center;
+    border: 2px solid lightblue;
+    height: 50px;
+    width: 51.5%;
+    }
+ 
+  .main{
+    border: 2px solid black;
+    margin: 20px;
+    display: flex;
+    align-items: flex-start;
+    
+  }
+  .employeeDir {
+    border: 2px solid orange;
+    padding: 2px;
+    width: 50%;
+    flex:1;
+    }
+  .allnames{
+    border: 2px solid pink;
+    width: 100%;
+  }
+  .search{
+    border: 2px solid lightgrey;
+    height: 40px;
+    width: 51.3%;
+    }
+  img {
+    width: 100px; /* Adjust the width as needed */
+    height:100px; /* Adjust the height as needed */
+    object-fit: cover;
+    margin-right: 10px;
+    float: left;
+    border-radius: 50%;
+  }
+  .show{
+    padding: 2px;
+    width: 50%;
+    float:right;
+    margin-top:-795px;
+    margin-right:-50px
+    
+  }
+  .back {
+    cursor: pointer;
+    font-size: 1.2em;
+    text-align:center;
+    border: 2px solid lightblue;
+    height: 45px;
+    width: 90%;
+    
+  }
+  
+  .back:hover {
+    text-decoration: underline;
+  }
+  info{
+    text-align: left;
+    border: 2px solid light grey;
+    width: 535px;
+    font-size: 15px;
+    margin-top:-900px
+  }
+
+    
+    
+   
